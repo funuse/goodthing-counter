@@ -1,0 +1,44 @@
+/* 글로벌 스타일 */
+
+body {  
+  margin: 0;
+  background-image: url("sky.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 25px;
+}
+
+/* 폰트 스타일 */
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+/* 최외각 컨테이너 스타일 */
+
+.app {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+/* 버튼 스타일 */
+
+button {
+  width: 100px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: darkred;
+  color: white;
+}
+
+/* 세부 스타일 */
+#save-el {
+  margin-top: 40px;
+}
